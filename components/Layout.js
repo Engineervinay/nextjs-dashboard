@@ -1,15 +1,17 @@
 
 import Sidebar from './sidebar';
 import Image from 'next/image';
-import bell from './bell.png';
+import Head from 'next/head';
 import avatar from './favico.jpg';
+import Container from './container';
+import ContainerReferal from './ContainerReferal';
 export default function Layout () {
   return (
     <div className="h-screen flex flex-row justify-start">
     <Sidebar />
-    <div className="bg-fgcolor  m-2 flex-1 p-4 text-text rounded-sm">
-    <div class="flex flex-row justify-end ">
-    <div class="relative h-5 text-gray-600">
+    <div className="rounded-lg bg-fgcolor  m-4 flex-1 p-4 text-text ">
+    <div className="flex flex-row justify-end ">
+    <div className="relative h-5 text-gray-600">
         <input type="search" name="serch" placeholder="Search" class="bg-searchbar h-5 px-6 pr-10 rounded-full text-sm focus:outline-none"/>
     </div>
     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-5">
@@ -19,12 +21,18 @@ export default function Layout () {
   <Image
     src={avatar}
     alt="Picture of the author"
-    layout="fill" // required
-    objectFit="cover" // change to suit your needs
-    className="rounded-full" // just an example
+    layout="fill" 
+    objectFit="cover" 
+    className="rounded-full" 
   />
 </div>
 </div>
+
+<div className='text-xl my-4 '>My Team</div>
+    <div className='flex flex-row justify-center'>
+      <Container/>
+      <ContainerReferal/>
+    </div>
     </div>
   </div>
   );
