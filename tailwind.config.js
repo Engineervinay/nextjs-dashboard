@@ -13,6 +13,7 @@ module.exports = {
       white: '#ffffff',
       bgcolor: '#1E40AE',
       fgcolor:'#F1F4F9',
+      searchbar:'#E0E4ED',
       text: {
         DEFAULT: "#1F2937",
         light: "#6C7281",
