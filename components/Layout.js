@@ -29,7 +29,7 @@ export default function Layout () {
 </div>
 
 <div className='text-xl my-4 '>My Team</div>
-    <div className='flex flex-row justify-center'>
+    <div className='flex flex-row space-x-4 justify-center'>
       <Container/>
       <ContainerReferal/>
     </div>
