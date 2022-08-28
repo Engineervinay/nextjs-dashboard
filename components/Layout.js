@@ -3,7 +3,7 @@ import Sidebar from './sidebar';
 import Image from 'next/image';
 import Head from 'next/head';
 import avatar from './favico.jpg';
-import Container from './container';
+import Container from './Container';
 import ContainerReferal from './ContainerReferal';
 import DataTable from './DataTable';
 export default function Layout () {
