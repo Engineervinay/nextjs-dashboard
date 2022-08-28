@@ -9,7 +9,7 @@ export default function Layout () {
   return (
     <div className="h-screen flex flex-row justify-start">
     <Sidebar />
-    <div className="rounded-lg bg-fgcolor  m-4 flex-1 p-4 text-text ">
+    <div className="rounded-lg bg-fgcolor  m-4 flex-1 p-4 text-text gap-4">
     <div className="flex flex-row justify-end ">
     <div className="relative h-5 text-gray-600">
         <input type="search" name="serch" placeholder="Search" class="bg-searchbar h-5 px-6 pr-10 rounded-full text-sm focus:outline-none"/>
