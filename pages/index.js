@@ -7,7 +7,7 @@ export default function Home() {
   
   
   return (
-    <div className='text bg-bgcolor' >
+    <div className='text bg-bgcolor dark:bg-darkbg' >
     <Layout/>
     
    

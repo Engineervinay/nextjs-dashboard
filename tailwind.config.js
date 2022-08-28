@@ -5,6 +5,7 @@ module.exports = {
   content: [ "./pages/**/*.{js,ts,jsx,tsx}",
   "./components/**/*.{js,ts,jsx,tsx}",
 ],
+darkMode: 'class',
   theme: {
     ...defaultTheme,
     colors: {
@@ -13,6 +14,7 @@ module.exports = {
       white: '#ffffff',
       bgcolor: '#1B63D1',
       fgcolor:'#F1F4F9',
+      darkbg:'#1B253E',
       searchbar:'#E0E4ED',
       text: {
         DEFAULT: "#1F2937",
@@ -21,6 +23,10 @@ module.exports = {
       light: {
         DEFAULT: "#FAFBFC",
         lighter: "#F3F4F6",
+      },
+      dark:{
+        darkbg:'#1B253E',
+        darkfg:'#232D46',
       },
 
     
