@@ -2,10 +2,10 @@ import React from 'react'
 
 export default function Container() {
   return (
-    <div className='container-sm w-1/2 p-8 bg-white shadow-xl rounded-md'> 
+    <div className='container-sm w-1/2 p-8 bg-white dark:bg-darkcontainer shadow-xl rounded-md'> 
       <div className='flex flex-row flex-wrap justify-items-center justify-center gap-8'>  
-        <div className='container-sm  px-6 w-52 py-5 shadow-md border border-fgcolor rounded-md'>
-            <div className='text-md'>
+        <div className='container-sm dark:bg-darkhighlight px-6 w-52 py-5 shadow-md border border-fgcolor dark:border-none rounded-md'>
+            <div className='text-md dark:text-white'>
                 Total Income
 
             </div>
@@ -15,8 +15,8 @@ export default function Container() {
             </div>
             
         </div>
-        <div className='container-sm w-52 container-sm px-6 py-5 shadow-md border border-fgcolor rounded-md'>
-            <div className='text-md'>
+        <div className='container-sm dark:bg-darkhighlight  dark:text-white w-52 container-sm px-6 py-5 shadow-md dark:border-none border border-fgcolor rounded-md'>
+            <div className='text-md '>
                 Residual Incomes
 
             </div>

@@ -15,6 +15,9 @@ darkMode: 'class',
       bgcolor: '#1B63D1',
       fgcolor:'#F1F4F9',
       darkbg:'#1B253E',
+      darkfg:'#232D46',
+      darkcontainer:'#28344E',
+      darkhighlight:'#303C56',
       searchbar:'#E0E4ED',
       text: {
         DEFAULT: "#1F2937",
@@ -24,10 +27,7 @@ darkMode: 'class',
         DEFAULT: "#FAFBFC",
         lighter: "#F3F4F6",
       },
-      dark:{
-        darkbg:'#1B253E',
-        darkfg:'#232D46',
-      },
+      
 
     
     },

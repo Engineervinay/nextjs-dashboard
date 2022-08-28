@@ -5,7 +5,7 @@ export default function Sidebar(){
 
     const {theme, setTheme} = useTheme()
     return(
-        <div className='h-screen py-4 px-4 pb-8 bg-bgcolor dark:bg-darkbg flex justify-between flex-col align-start w-56 '>
+        <div className='h-screen py-4 px-4 pb-8 bg-bgcolor dark:bg-darkbg flex justify-start flex-col align-start w-56 '>
             LOGO 
             <button
                 aria-label="Toggle Dark Mode"
