@@ -2,7 +2,7 @@
 import Sidebar from './sidebar';
 import Image from 'next/image';
 import Head from 'next/head';
-import avatar from './favico.jpg';
+import avatar from './images/favico.jpg';
 import Container from './Container';
 import ContainerReferal from './ContainerReferal';
 import DataTable from './DataTable';
@@ -10,7 +10,7 @@ export default function Layout () {
   return (
     <div className="h-screen flex flex-row justify-start ">
     <Sidebar />
-    <div className="rounded-lg   bg-fgcolor dark:bg-darkfg  m-4 flex-1 p-4 text-text">
+    <div className="rounded-lg   bg-fgcolor dark:bg-darkfg  m-4 flex-1 p-4  ml-0 text-text">
     <div className="flex flex-row justify-end  gap-5">
     <div className="relative h-5 text-gray-600">
         <input type="search" name="serch" placeholder="Search" className="bg-searchbar dark:bg-darkhighlight h-5 px-6 pr-10 rounded-full text-sm focus:outline-none"/>
