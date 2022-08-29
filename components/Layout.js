@@ -11,7 +11,7 @@ export default function Layout () {
     <div className="h-screen flex flex-row justify-start ">
     <Sidebar />
     <div className="rounded-lg   bg-fgcolor dark:bg-darkfg  m-4 flex-1 p-4  ml-0 text-text">
-    <div className="flex flex-row justify-end  gap-5">
+    <div className="flex flex-row justify-end dark:text-white  gap-5">
     <div className="relative h-5 text-gray-600">
         <input type="search" name="serch" placeholder="Search" className="bg-searchbar dark:bg-darkhighlight  px-6 pr-10 rounded-full text-sm focus:outline-none"/>
     </div>

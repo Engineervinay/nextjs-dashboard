@@ -16,44 +16,14 @@ export const TABLE_DATA = [
     {
       
         ID: '45455',
-        Nickname:'Dave4demi ',
-        Time:'08-05-22     10:40',
+        Nickname:'tyson ',
+        Time:'22-09-22     11:32',
     },
     {
       
-        ID: '076854',
-        Nickname:'Dave4demi ',
-        Time:'08-05-22     10:40',
-    },
-    {
-      
-        ID: '076854',
-        Nickname:'Dave4demi ',
-        Time:'08-05-22     10:40',
-    },
-    {
-      
-        ID: '076854',
-        Nickname:'Dave4demi ',
-        Time:'08-05-22     10:40',
-    },
-    {
-      
-        ID: '076854',
-        Nickname:'Dave4demi ',
-        Time:'08-05-22     10:40',
-    },
-    {
-      
-        ID: '076854',
-        Nickname:'Dave4demi ',
-        Time:'08-05-22     10:40',
-    },
-    {
-      
-        ID: '076854',
-        Nickname:'Dave4demi ',
-        Time:'08-05-22     10:40',
+        ID: '23254',
+        Nickname:'JoeRogan',
+        Time:'11-02-22     02:30',
     },
     {
       
