@@ -1,5 +1,6 @@
 import Image from "next/dist/client/image";
 import { useTheme } from "next-themes";
+import LOGO from "./images/logo.png";
 import { DASHBOARD_DATA } from "../data/data";
 export default function Sidebar() {
   const { theme, setTheme } = useTheme();
@@ -44,8 +45,14 @@ export default function Sidebar() {
             </svg>
           )}
         </button>
-      </div>
-      <div>LOGO</div>
+      </div >
+      <div className="w-32 p-1 mx-auto"> <Image
+              src={LOGO}
+              alt="random logo"
+              layout="responsive"
+              objectFit="cover"
+              className=""
+            /></div>
       <div className=" py-4 pr-0 pt-3 px-3 border-t border-gray-200 dark:border-gray-700">
         <ul class="space-x-2 space-y-2 ">
           {DASHBOARD_DATA.map((it) => (
