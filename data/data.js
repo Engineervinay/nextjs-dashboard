@@ -15,70 +15,70 @@ export const TABLE_DATA = [
     Time: "22-09-22     11:32",
   },
   {
-    ID: "23254",
+    ID: "25254",
     Nickname: "JoeRogan",
     Time: "11-02-22     02:30",
   },
   {
-    ID: "076854",
+    ID: "16854",
     Nickname: "Equinox ",
     Time: "08-05-22     06:40",
   },
   {
-    ID: "23254",
+    ID: "23154",
     Nickname: "campbevi",
     Time: "27-02-22     03:30",
   },
   {
-    ID: "34324",
+    ID: "34624",
     Nickname: "Mannie ",
     Time: "04-07-21     12:00",
   },
 
   {
-    ID: "43433",
+    ID: "43833",
     Nickname: "stacy",
     Time: "23-02-22     03:30",
   },
 
   {
-    ID: "23254",
+    ID: "28254",
     Nickname: "john",
     Time: "10-02-22     03:30",
   },
 
   {
-    ID: "23254",
+    ID: "23244",
     Nickname: "kamlesh",
     Time: "17-02-22     03:30",
   },
 
   {
-    ID: "23254",
+    ID: "13254",
     Nickname: "ravi",
     Time: "25-02-22     03:00",
   },
 
   {
-    ID: "23254",
+    ID: "63254",
     Nickname: "akash",
     Time: "27-02-22     03:30",
   },
 
   {
-    ID: "23254",
+    ID: "36254",
     Nickname: "andrew",
     Time: "02-02-22     11:59",
   },
 
   {
-    ID: "23254",
+    ID: "76254",
     Nickname: "kevin",
     Time: "07-02-22     23:48",
   },
 
   {
-    ID: "23254",
+    ID: "78254",
     Nickname: "smith",
     Time: "01-02-22     03:40",
   },
@@ -93,13 +93,13 @@ export const DASHBOARD_DATA = [
         xmlns="http://www.w3.org/2000/svg"
         fill="none"
         viewBox="0 0 24 24"
-        stroke-width="1.5"
+        strokeWidth="1.5"
         stroke="currentColor"
-        class="w-6 h-6"
+        className="w-6 h-6"
       >
         <path
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeLinecap="round"
+          strokeLinejoin="round"
           d="M3.75 6A2.25 2.25 0 016 3.75h2.25A2.25 2.25 0 0110.5 6v2.25a2.25 2.25 0 01-2.25 2.25H6a2.25 2.25 0 01-2.25-2.25V6zM3.75 15.75A2.25 2.25 0 016 13.5h2.25a2.25 2.25 0 012.25 2.25V18a2.25 2.25 0 01-2.25 2.25H6A2.25 2.25 0 013.75 18v-2.25zM13.5 6a2.25 2.25 0 012.25-2.25H18A2.25 2.25 0 0120.25 6v2.25A2.25 2.25 0 0118 10.5h-2.25a2.25 2.25 0 01-2.25-2.25V6zM13.5 15.75a2.25 2.25 0 012.25-2.25H18a2.25 2.25 0 012.25 2.25V18A2.25 2.25 0 0118 20.25h-2.25A2.25 2.25 0 0113.5 18v-2.25z"
         />
       </svg>

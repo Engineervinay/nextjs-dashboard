@@ -32,7 +32,7 @@ export default function DataTable() {
         </thead>
         <tbody>
           {data.map((it) => (
-            <tr className="bg-white  dark:bg-darkcontainer   dark:text-white">
+            <tr key={it.ID}className="bg-white  dark:bg-darkcontainer   dark:text-white">
               <td
                 scope="row"
                 className="py-3 px-6 text-[12px] text-gray-900 whitespace-nowrap dark:text-white"
@@ -50,22 +50,22 @@ export default function DataTable() {
 
       <div className="justify-center flex w-full content-center">
         {" "}
-        <ul class="inline-flex items-center -space-x-px">
+        <ul className="inline-flex items-center -space-x-px">
           <li>
             <a
               onClick={() => updatePage(page - 1)}
-              class=" cursor-pointer block py-1 px-2 dark:text-white ml-auto leading-tight   rounded-full  hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800  dark:hover:bg-gray-700 dark:hover:text-white"
+              className=" cursor-pointer block py-1 px-2 dark:text-white ml-auto leading-tight   rounded-full  hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800  dark:hover:bg-gray-700 dark:hover:text-white"
             >
-              <span class="sr-only">Previous</span>
+              <span className="sr-only">Previous</span>
               <svg
                 aria-hidden="true"
-                class="w-5 h-5"
+                className="w-5 h-5"
                 fill="currentColor"
                 viewBox="0 0 20 20"
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
-                  fill-rule="evenodd"
+                  fillRule="evenodd"
                   d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z"
                   clipRule="evenodd"
                 ></path>
@@ -75,10 +75,10 @@ export default function DataTable() {
 
           {pages.map((it) =>
             page == it ? (
-              <li>
-                <a
+              <li key={it}>
+                <a key={it}
                   onClick={() => updatePage(it)}
-                  class="cursor-pointer py-1 mx-2 px-3 leading-tight  bg-bgcolor hover:bg-gray-100 text-white hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white rounded-full"
+                  className="cursor-pointer py-1 mx-2 px-3 leading-tight  bg-bgcolor hover:bg-gray-100 text-white hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white rounded-full"
                 >
                   {it}
                 </a>
@@ -87,7 +87,7 @@ export default function DataTable() {
               <li>
                 <a
                   onClick={() => updatePage(it)}
-                  class=" cursor-pointer py-2 px-3 leading-tight  dark:text-white"
+                  className=" cursor-pointer py-2 px-3 leading-tight  dark:text-white"
                 >
                   {it}
                 </a>
@@ -98,18 +98,18 @@ export default function DataTable() {
           <li>
             <a
               onClick={() => updatePage(page + 1)}
-              class="block py-2 px-2 leading-tight  rounded-full  hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:text-white"
+              className="block py-2 px-2 leading-tight  rounded-full  hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:text-white"
             >
-              <span class="sr-only">Next</span>
+              <span className="sr-only">Next</span>
               <svg
                 aria-hidden="true"
-                class="w-5 h-5"
+                className="w-5 h-5"
                 fill="currentColor"
                 viewBox="0 0 20 20"
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
-                  fill-rule="evenodd"
+                  fillRule="evenodd"
                   d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
                   clipRule="evenodd"
                 ></path>

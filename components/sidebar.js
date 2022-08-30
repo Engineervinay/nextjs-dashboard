@@ -54,9 +54,9 @@ export default function Sidebar() {
               className=""
             /></div>
       <div className=" py-4 pr-0 pt-3 px-3 border-t border-gray-200 dark:border-gray-700">
-        <ul class="space-x-2 space-y-2 ">
+        <ul className="space-x-2 space-y-2 ">
           {DASHBOARD_DATA.map((it) => (
-            <li className="ml-0">
+            <li className="ml-0" key={it.title}>
               {it.status == false ? (
                 <a
                   href="#"
