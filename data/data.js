@@ -21,8 +21,66 @@ export const TABLE_DATA = [
   },
   {
     ID: "076854",
-    Nickname: "Dave4demi ",
-    Time: "08-05-22     10:40",
+    Nickname: "Equinox ",
+    Time: "08-05-22     06:40",
+  },
+  {
+    ID: "23254",
+    Nickname: "campbevi",
+    Time: "27-02-22     03:30",
+  },
+  {
+    ID: "34324",
+    Nickname: "Mannie ",
+    Time: "04-07-21     12:00",
+  },
+
+  {
+    ID: "43433",
+    Nickname: "stacy",
+    Time: "23-02-22     03:30",
+  },
+
+  {
+    ID: "23254",
+    Nickname: "john",
+    Time: "10-02-22     03:30",
+  },
+
+  {
+    ID: "23254",
+    Nickname: "kamlesh",
+    Time: "17-02-22     03:30",
+  },
+
+  {
+    ID: "23254",
+    Nickname: "ravi",
+    Time: "25-02-22     03:00",
+  },
+
+  {
+    ID: "23254",
+    Nickname: "akash",
+    Time: "27-02-22     03:30",
+  },
+
+  {
+    ID: "23254",
+    Nickname: "andrew",
+    Time: "02-02-22     11:59",
+  },
+
+  {
+    ID: "23254",
+    Nickname: "kevin",
+    Time: "07-02-22     23:48",
+  },
+
+  {
+    ID: "23254",
+    Nickname: "smith",
+    Time: "01-02-22     03:40",
   },
 ];
 
