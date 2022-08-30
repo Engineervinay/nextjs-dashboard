@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Container() {
   return (
-    <div className="container-sm w-1/2 p-8 bg-white dark:bg-darkcontainer shadow-xl rounded-md">
+    <div className="container-sm sm:w-1/2 w-4/5 p-8 bg-white dark:bg-darkcontainer shadow-xl rounded-md">
       <div className="flex flex-row flex-wrap justify-items-center justify-center gap-8">
         <div className="container-sm dark:bg-darkhighlight px-6 w-52 py-5 shadow-md border border-fgcolor dark:border-none rounded-md">
           <div className="text-md dark:text-white">Total Income</div>

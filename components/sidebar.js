@@ -5,8 +5,8 @@ import { DASHBOARD_DATA } from "../data/data";
 export default function Sidebar() {
   const { theme, setTheme } = useTheme();
   return (
-    <div className="h-screen py-4 px-4 pb-8 mr-0 pr-0 bg-bgcolor dark:bg-darkbg flex justify-start flex-col align-start w-56 gap-5">
-      <div className="flex flex-row justify-end ">
+    <div className="sm:h-screen  py-4 px-4 pb-8 sm:mr-0 m-auto pr-0 bg-bgcolor dark:bg-darkbg flex justify-start flex-col align-start w-56 gap-5">
+      <div className="flex flex-row-reverse justify-end ">
         <button
           aria-label="Toggle"
           type="button"
@@ -45,14 +45,14 @@ export default function Sidebar() {
             </svg>
           )}
         </button>
-      </div >
-      <div className="w-32 p-1 mx-auto"> <Image
+        <div className="w-32 p-1 mx-auto"> <Image
               src={LOGO}
               alt="random logo"
               layout="responsive"
               objectFit="cover"
               className=""
             /></div>
+      </div >
       <div className=" py-4 pr-0 pt-3 px-3 border-t border-gray-200 dark:border-gray-700">
         <ul className="space-x-2 space-y-2 ">
           {DASHBOARD_DATA.map((it) => (
@@ -60,7 +60,7 @@ export default function Sidebar() {
               {it.status == false ? (
                 <a
                   href="#"
-                  className="flex items-center p-2 pr-0 py-1 text-base font-normal text-gray-900 rounded-full rounded-r-none dark:text-white hover:bg-fgcolor hover:text-bgcolor dark:hover:bg-darkfg"
+                  className="flex items-center p-2 pr-0 py-1 text-base font-normal text-gray-900 rounded-full sm:rounded-r-none dark:text-white hover:bg-fgcolor hover:text-bgcolor dark:hover:bg-darkfg"
                 >
                   <div className="w-5"> {it.icon}</div>
                   <span className="ml-3">{it.title}</span>
@@ -68,7 +68,7 @@ export default function Sidebar() {
               ) : (
                 <a
                   href="#"
-                  className="flex items-center p-2 pr-0 py-1 bg-fgcolor text-base font-normal text-bgcolor rounded-full rounded-r-none dark:text-white hover:bg-fgcolor dark:bg-darkfg dark:hover:bg-darkfg"
+                  className="flex items-center p-2 pr-0 py-1 bg-fgcolor text-base font-normal text-bgcolor rounded-full sm:rounded-r-none dark:text-white hover:bg-fgcolor dark:bg-darkfg dark:hover:bg-darkfg"
                 >
                   <div className="w-5"> {it.icon}</div>
                   <span className="ml-3">{it.title}</span>

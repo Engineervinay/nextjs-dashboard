@@ -3,7 +3,7 @@ import Image from "next/image";
 import Bitcoin from "./images/bitcoin.png";
 export default function ContainerReferal() {
   return (
-    <div className="container-sm w-5/12 p-8 pb-0 pt-4 bg-white dark:bg-darkcontainer  shadow-xl rounded-md">
+    <div className="container-sm sm:w-5/12 w-4/5 p-8 pb-0 pt-4 bg-white dark:bg-darkcontainer  shadow-xl rounded-md">
       <div className="flex dark:text-white flex-column flex-wrap  text-left  gap-5">
         <div className=" text-left  font-bold h-2 "> Referal System:</div>
         <div className="text-sm text-left">

@@ -7,9 +7,9 @@ import ContainerReferal from "./ContainerReferal";
 import DataTable from "./DataTable";
 export default function Layout() {
   return (
-    <div className="h-screen flex flex-row justify-start ">
+    <div className="sm:h-screen  flex sm:flex-row flex-col justify-start ">
       <Sidebar />
-      <div className="rounded-lg   bg-fgcolor dark:bg-darkfg  m-4 flex-1 p-4  ml-0 text-text">
+      <div className="rounded-lg   bg-fgcolor dark:bg-darkfg  m-4 flex-1 p-4  sm:ml-0 text-text">
         <div className="flex flex-row justify-end dark:text-white  gap-5">
           <div className="relative h-5 text-gray-600">
             <input
@@ -45,7 +45,7 @@ export default function Layout() {
         </div>
 
         <div className="text-xl dark:text-white my-4 ">My Team</div>
-        <div className="flex flex-row  flex-wrap space-x-8 justify-center">
+        <div className="flex flex-row  flex-wrap sm:space-x-8 sm:space-y-0 space-y-3 justify-center">
           <Container />
           <ContainerReferal />
         </div>
